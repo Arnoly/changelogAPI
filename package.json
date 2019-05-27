@@ -4,6 +4,7 @@
     "cors": "^2.8.5",
     "fs": "^0.0.1-security",
     "knex": "^0.16.5",
+    "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
     "objection": "^1.6.9"
   }
