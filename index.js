@@ -6,7 +6,7 @@
 // const express = require('express');
 const moment = require('moment');
 // const bodyParser = require('body-parser');
-// const objection = require('objection');
+const objection = require('objection');
 const axios = require('axios');
 const cors = require('cors');
 const fs = require('fs');
@@ -14,6 +14,7 @@ const mkdirp = require('mkdirp');
 const readline = require('readline');
 // const authToken = 'token 6b8775d58f7b9a878da086cb3102bc902a651296';
 const fileName = `Logs/Logs_${moment().format('DD-MM-YYYY')}`;
+const ChangelogQuery = require('./src/database/models/ChangelogQuery');
 let mostRecentFile;
 let check = true;
 
@@ -27,7 +28,6 @@ if (fs.existsSync(fileName)) {
 
     rl.question('Un fichier existe déjà, voulez-vous le réécrire ? (y/n)', (answer) => {
         if (answer === 'y') {
-            console.log('yes');
             createLogFile();
             rl.close();
         } else if (answer === 'n') {
@@ -39,7 +39,6 @@ if (fs.existsSync(fileName)) {
         }
     });
 } else {
-    console.log('N\'existe pas');
     createLogFile();
     rl.close();
 }
