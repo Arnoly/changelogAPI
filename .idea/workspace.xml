@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7167ff68-e39f-4fc5-aa2d-945e527cf60a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/Logs_25-05-2019" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/Logs_26-05-2019" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/Logs_27-05-2019" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="302">
+              <caret line="43" column="58" lean-forward="true" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+              <folding>
+                <element signature="n#!!block;n#createLogFile#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +42,8 @@
       <list>
         <option value="$PROJECT_DIR$/Logs.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -74,6 +67,11 @@
             <path>
               <item name="ChangelogsCompiler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChangelogsCompiler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChangelogsCompiler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChangelogsCompiler" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,18 +115,18 @@
       <updated>1558422159909</updated>
       <workItem from="1558422162333" duration="602000" />
       <workItem from="1558962392099" duration="10509000" />
-      <workItem from="1559026655519" duration="211000" />
+      <workItem from="1559026655519" duration="2950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11322000" />
+    <option name="totallyTimeSpent" value="14061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17398119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17398119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -140,7 +138,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4992163" visible="true" weight="0.22801302" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4992163" visible="true" weight="0.22801302" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007837" side_tool="true" weight="0.22801302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -157,6 +155,16 @@
     <entry file="file://$PROJECT_DIR$/Logs.txt" />
     <entry file="file://$PROJECT_DIR$/search.js" />
     <entry file="file://$PROJECT_DIR$/Logs_27-05-2019" />
+    <entry file="file://$PROJECT_DIR$/Logs/Logs_28-05-2019">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -169,15 +177,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="302">
+          <caret line="43" column="58" lean-forward="true" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!block;n#createLogFile#0" />
+          </folding>
         </state>
       </provider>
     </entry>
