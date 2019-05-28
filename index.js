@@ -11,7 +11,7 @@ const axios = require('axios');
 const cors = require('cors');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
-const authToken = 'token 6b8775d58f7b9a878da086cb3102bc902a651296';
+// const authToken = 'token 6b8775d58f7b9a878da086cb3102bc902a651296';
 const fileName = `Logs/Logs_${moment().format('DD-MM-YYYY')}`;
 let mostRecentFile;
 
@@ -82,7 +82,12 @@ axios.get('https://api.github.com/orgs/weview-app/repos').then(async projectList
         }
         let latestFileSize = fs.statSync(mostRecentFile).size;
         let currentFileSize = fs.statSync(fileName).size;
-        console.log(`Poids du dernier changelog ${mostRecentFile.replace('Logs/', '')}->${latestFileSize/1000} Ko
+        if (mostRecentFile !== fileName) {
+            console.log(`Poids du dernier changelog ${mostRecentFile.replace('Logs/', '')}->${latestFileSize/1000} Ko
          et du nouveau->${currentFileSize/1000} Ko`);
+        }
+        else {
+            console.log(`Pas d'autres fichier Logs, taille du nouveau ${currentFileSize/1000} Ko`);
+        }
     });
 });
