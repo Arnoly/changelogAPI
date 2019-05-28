@@ -29,4 +29,9 @@ app.get('/appList', (req, res) => {
     });
 });
 
+app.get('/getModulesByAppId/:id', (req, res) => {
+    ReposList.query().then(reposList => { res.send(reposList) });
+    console.log(`Id de l'application ${req.params.id}`);
+});
+
 app.listen(3000, () => console.log('Server is listening'));
